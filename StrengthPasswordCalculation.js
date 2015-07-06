@@ -85,7 +85,7 @@
 				{
 					case "en":
 						var password = {
-						 "strenghtPassword": "Password strength : ",
+						 "strenghtPassword": "Password strength: ",
 						 "timeCrackPassword": "Time to crack password: ",
 						 "veryWeak": "Very weak",
 						 "weak": "Weak",
@@ -95,10 +95,10 @@
 						break;
 					case "es":
 						var password = {
-						 "strenghtPassword": "Seguridad de la contraseña: ",
-						 "timeCrackPassword": "Tiempo para romper la contraseña: ",
-						 "veryWeak": "Muy débil",
-						 "weak": "Débil",
+						 "strenghtPassword": "Seguridad de la contrase\u00F1a: ",
+						 "timeCrackPassword": "Tiempo para romper la contrase\u00F1a: ",
+						 "veryWeak": "Muy d\u00E9bil",
+						 "weak": "D\u00E9bil",
 						 "medium": "Media",
 						 "strong": "Fuerte"
 						};
@@ -107,14 +107,14 @@
 						var password = {
 						 "strenghtPassword": "Force du mot de passe : ",
 						 "timeCrackPassword": "Temps pour cracker le mot de passe : ",
-						 "veryWeak": "Très faible",
+						 "veryWeak": "Tr\u00E8s faible",
 						 "weak": "Faible",
 						 "medium": "Moyen",
 						 "strong": "Fort"
 						};
-
-					return password;
 				}
+
+				return password;
 			}
 		});
 
