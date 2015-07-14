@@ -1,0 +1,18 @@
+<html>
+	<head>
+		<title>StrengthPasswordCalculation - Example</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script type="text/javascript" src="zxcvbn.js"></script>
+		<script type="text/javascript" src="StrengthPasswordCalculation.js"></script>
+		<link type="text/css" rel="stylesheet" href="StrengthPasswordCalculation.css" media="screen" />
+
+		<script>
+			$(function() {
+				$(".pass").StrengthPasswordCalculation();
+			});
+		</script>
+	</head>
+	<body>
+		Password: <input type='text' class='pass' />
+	</body>
+</html>
